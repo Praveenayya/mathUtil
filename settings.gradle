@@ -11,3 +11,5 @@ dependencyResolutionManagement {
 rootProject.name = "MyMathLibrary"
 include ':app'
 include ':MathLibrary'
+include ':Library'
+
