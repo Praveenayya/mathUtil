@@ -1,2 +1,6 @@
 jdk:
   -openjdk11
+
+install:
+    - FILE="-Dfile=MathLibrary-release.aar"
+    - mvn install:install-file $FILE -DgroupId=com.lb.sdktest -DartifactId=test -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
